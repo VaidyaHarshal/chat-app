@@ -1,11 +1,11 @@
-import "./App.css";
+import Chat from "./pages/Chat";
 
-function App() {
+export default function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <div className="flex justify-center items-center h-screen bg-gray-50">
+        <Chat />
+      </div>
     </>
   );
 }
-
-export default App;
