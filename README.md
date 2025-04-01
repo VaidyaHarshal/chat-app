@@ -26,9 +26,7 @@ A simple real-time chat application built with React, WebSocket, Node.js, and Mo
    npm install
    ```
 
-2. **Set up environment variables**: Copy the provided env file to the `backend` folder
-
-3. **Configure MongoDB**: Make sure MongoDB is running either locally via MongoDB Compass.
+2. **Configure MongoDB**: Make sure MongoDB is running either locally via MongoDB Compass.
 
    - For MongoDB Compass, connect to your local instance and note the connection string.
    - Set the MongoDB connection URI in the backend `server.ts` file like so:
@@ -36,13 +34,13 @@ A simple real-time chat application built with React, WebSocket, Node.js, and Mo
      const uri = "mongodb://localhost:27017/chatApp";
      ```
 
-4. **Start the Backend Server**: Run the following command to start the server:
+3. **Start the Backend Server**: Run the following command to start the server:
 
    ```bash
    npm run dev
    ```
 
-5. **Check for MongoDB Connection**: Ensure that the server is running without errors and able to connect to the database.
+4. **Check for MongoDB Connection**: Ensure that the server is running without errors and able to connect to the database.
 
 ### Frontend (React)
 
